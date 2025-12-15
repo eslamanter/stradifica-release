@@ -3,3 +3,4 @@ Applicazione per l’esecuzione, l’analisi grafica e l’esportazione in tempo
 in conformità alla normativa stradale italiana vigente.
 
 <img src="images/chart_window.jpg">
+test
