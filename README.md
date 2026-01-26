@@ -267,11 +267,11 @@ Le barre dei comandi sono suddivise in:
 
 - **Barra degli strumenti** (*in alto*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24"> 
 
   - Finestra delle **Impostazioni**: gestione delle caratteristiche della strada e dei criteri di verifica  
   - Finestra dei **Limiti locali**: personalizzazione delle tratte con limiti di velocità locali  
