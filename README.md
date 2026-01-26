@@ -37,7 +37,7 @@ educativi e non commerciali**.
 
 **🚫 3.1 Restrizioni**  
 
-- Vietata modifica, decompilazione o reverse engineering
+- Vietata modifica o decompilazione
 - Vietata la distribuzione commerciale
 - Vietato l’uso in ambienti di produzione a scopo di lucro
 
@@ -271,7 +271,7 @@ Le barre dei comandi sono suddivise in:
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24">  
 
   - Finestra delle **Impostazioni**: gestione delle caratteristiche della strada e dei criteri di verifica  
   - Finestra dei **Limiti locali**: personalizzazione delle tratte con limiti di velocità locali  
@@ -281,7 +281,7 @@ Le barre dei comandi sono suddivise in:
 
 - **Barra delle informazioni** (*in alto*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/info.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/info.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/help.jpg" width="24" height="24">  
 
   - Finestra delle **Informazioni**: versione, note generali e contatti  
@@ -289,9 +289,9 @@ Le barre dei comandi sono suddivise in:
 
 - **Barra dei filtri** (*a destra*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_off.jpg" width="24" height="24"> |  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_off.jpg" width="24" height="24"> | 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_on.jpg" width="24" height="24">  
 
   - Comando **Evidenzia**: evidenzia gli elementi non verificati e le verifiche non soddisfatte  
@@ -299,8 +299,8 @@ Le barre dei comandi sono suddivise in:
 
 - **Barra delle azioni** (*a destra*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24">  
 
   Le azioni di questa barra sono accessibili anche tramite il tasto destro del mouse nella tabella degli elementi:  
@@ -310,7 +310,7 @@ Le barre dei comandi sono suddivise in:
 
 - **Barra delle viste** (*in basso*) 
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
 
   - Vista **Tracciato**: visualizza gli elementi e le verifiche del tracciato  
@@ -459,11 +459,11 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
 
 - **Barra dei filtri** (*a destra*)
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_off.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/forward.jpg" width="24" height="24"> |  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_on.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_off.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/forward.jpg" width="24" height="24"> | 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_on.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/back.jpg" width="24" height="24">  
 
   - Comando **Evidenzia**: evidenzia i limiti (inferiore e superiore) e le aree critiche (non verificate)  
@@ -473,9 +473,9 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
 
 - **Barra delle azioni** (*a destra*)
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24">  
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> 
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/overwrite.jpg" width="24" height="24">  
 
   - Comando **Copia** (Ctrl+C): copia le coordinate dei diagrammi correnti in formato tabulato  
@@ -487,7 +487,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
 
 - **Barra dei diagrammi** (*in basso*)
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sight.jpg" width="24" height="24">  
 
   - Diagramma delle **velocità**  
@@ -544,7 +544,7 @@ Oltre alla vista centrale, sono disponibili due barre:
 
 - **Barra delle azioni** (*in alto*)
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24">  
 
   - Comando **Esporta registro**: esporta il registro completo con le procedure di verifica di tutti i criteri per gli 
@@ -553,7 +553,7 @@ Oltre alla vista centrale, sono disponibili due barre:
 
 - **Barra delle viste** (*in basso*)
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
 
   - Vista **Tracciato**: visualizza le verifiche degli elementi planimetrici nella vista centrale  
@@ -628,7 +628,7 @@ utilizzando il comando **Incolla** tramite una delle seguenti opzioni:
   - Menu contestuale con tasto destro del mouse sulla tabella degli elementi  
   - Barra delle azioni  
 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/geometry_editor.jpg">
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/geometry_editor.jpg">  
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/grid_view.jpg">
 
   In alternativa, è possibile incollare i dati in un file `.txt` o in un foglio Excel `.xlsx`, salvarlo e importarlo 
