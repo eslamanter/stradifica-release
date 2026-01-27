@@ -10,7 +10,7 @@ You may:
 
 **Restrictions**  
 You may not:  
-- Modify, reverse-engineer, or decompile the executable  
+- Modify or decompile the executable  
 - Redistribute the software for commercial purposes  
 - Use the software in production systems or for-profit environments
 
