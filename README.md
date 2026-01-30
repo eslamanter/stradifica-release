@@ -11,11 +11,9 @@ plano-altimetriche sui tracciati stradali, in conformità alla normativa italian
 ### 👥 2.1 Destinatari  
 Categorie di utenti a cui Stradifica è rivolto:  
 - **Università e istituti di istruzione superiore**  
-  per corsi di ingegneria civile, trasporti, progettazione stradale e infrastrutturale  
-
+  per corsi di ingegneria civile, trasporti, progettazione stradale e infrastrutturale
 - **Docenti e ricercatori**  
-  come supporto didattico e per attività di analisi e sperimentazione  
-
+  come supporto didattico e per attività di analisi e sperimentazione
 - **Studi tecnici e professionisti**  
   per dimostrazioni, validazioni preliminari e attività illustrative non destinate alla produzione  
 
@@ -55,10 +53,8 @@ Stradifica **non raccoglie, memorizza né trasmette alcun dato personale**:
 ## ⚠️ 4. Avvertenze  
 ### ❗ 4.1 Limiti di funzionalità  
 Questa applicazione non sostituisce le competenze professionali né il giudizio tecnico qualificato. 
-A causa della grande varietà di potenziali applicazioni, il software non è stato testato in tutte le situazioni possibili. 
-L’uso in contesti non previsti può generare risultati inattesi o non validi. 
-Si raccomanda di verificare sempre i risultati ottenuti e di non utilizzarli come unica base decisionale in ambiti critici. 
-Questo software è fornito “così com’è”, senza alcuna garanzia, espressa o implicita.  
+Il software non è stato testato in tutte le situazioni possibili e l'uso in contesti non previsti può generare risultati inattesi. 
+Si raccomanda di verificare sempre i risultati e di non utilizzarli come unica base decisionale in ambiti critici.  
 
 ### 🚫 4.2 Esclusione di responsabilità  
 Questo software è fornito senza alcuna garanzia di prestazioni, affidabilità o risultati. 
@@ -196,6 +192,9 @@ velocità di progetto superiori a 140 km/h, ove non esplicitamente fornito nel D
 - **Spazio su disco**: 253 MB  
 - **Autodesk Civil 3D**: versione English o Italiano  
 
+**Nota**: Il software non è firmato digitalmente. Al primo avvio potrebbe comparire l'avviso di Windows Defender SmartScreen. 
+Per autorizzare l'esecuzione, selezionare "Più informazioni" e poi "Esegui comunque".  
+
 ---
 ## 🖥️ 7. Interfaccia  
 Stradifica offre un'interfaccia grafica semplice e intuitiva, a partire da una **finestra principale** dalla quale è 
@@ -261,11 +260,11 @@ L'elenco delle verifiche è organizzato nelle seguenti colonne:
 Per ciascun criterio selezionato nella vista delle verifiche, il **registro delle verifiche** fornisce una descrizione 
 dettagliata della procedura di calcolo e del confronto con il valore limite previsto dalla normativa.  
 
-**Barre dei comandi**  
+**Barre dei comandi**:  
 
 Le barre dei comandi sono suddivise in:  
 
-- **Barra degli strumenti** (*in alto*)  
+**Barra degli strumenti** (*in alto*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
@@ -279,15 +278,15 @@ Le barre dei comandi sono suddivise in:
   - Finestra di **Esportazione rapporti delle verifiche**: esportazione dei tabulati riassuntivi  
   - Finestra dei **Controlli normativi personalizzati**: verifica dei limiti normativi con parametri personalizzati  
 
-- **Barra delle informazioni** (*in alto*)   
+**Barra delle informazioni** (*in alto*)   
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/info.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/help.jpg" width="24" height="24">  
 
   - Finestra delle **Informazioni**: versione, note generali e contatti  
-  - Finestra della **Guida** (F1): documentazione online completa (richiede connessione a Internet)
+  - Finestra della **Guida** (F1): documentazione online completa (richiede connessione a Internet)  
 
-- **Barra dei filtri** (*a destra*)  
+**Barra dei filtri** (*a destra*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_off.jpg" width="24" height="24"> | 
@@ -297,7 +296,7 @@ Le barre dei comandi sono suddivise in:
   - Comando **Evidenzia**: evidenzia gli elementi non verificati e le verifiche non soddisfatte  
   - Comando **Filtra**: mostra solo gli elementi non verificati  
 
-- **Barra delle azioni** (*a destra*)  
+**Barra delle azioni** (*a destra*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> 
@@ -306,9 +305,9 @@ Le barre dei comandi sono suddivise in:
   Le azioni di questa barra sono accessibili anche tramite il tasto destro del mouse nella tabella degli elementi:  
   - Comando **Copia** (Ctrl+C): copia il contenuto della vista corrente in formato tabulato  
   - Comando **Incolla** (Ctrl+V): incolla un testo tabulato con i parametri degli elementi della vista corrente  
-  - Comando **Elimina** (Canc): elimina tutti gli elementi della vista corrente, previa conferma
+  - Comando **Elimina** (Canc): elimina tutti gli elementi della vista corrente, previa conferma  
 
-- **Barra delle viste** (*in basso*)  
+**Barra delle viste** (*in basso*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
@@ -317,11 +316,11 @@ Le barre dei comandi sono suddivise in:
   - Vista **Profilo**: visualizza gli elementi e le verifiche del profilo  
 
 La posizione delle barre può essere modificata trascinandole dal lato sinistro e riposizionandole su uno dei quattro 
-lati della finestra.
+lati della finestra.  
 
 - **Barra di stato** (*in basso*)  
   La barra di stato mostra i messaggi di conferma delle operazioni di *copia*, *incolla*, *elimina* ed eventuali errori, 
-con l'ora dell'evento e una breve descrizione.
+con l'ora dell'evento e una breve descrizione.  
 
 ### 7.2 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24"> Finestra delle impostazioni  
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config_window.jpg">  
@@ -373,11 +372,12 @@ un valore non nominale.
 
 La scheda *Verifiche* elenca i criteri di controllo previsti dai riferimenti normativi.  
 I criteri sono suddivisi in sottocategorie, ciascuna in una scheda dedicata:  
-- **Tracciato**  
+
+**Tracciato**  
   - Rettifilo  
   - Transizione (clotoide)  
   - Curva (arco di cerchio)  
-- **Profilo**  
+**Profilo**  
   - Livelletta  
   - Curva (parabola)  
 
@@ -444,7 +444,7 @@ linea grigia nel diagramma delle velocità.
 Questa finestra offre una visualizzazione grafica in tempo reale del diagramma delle velocità e dei vari diagrammi di 
 visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.  
 
-- **Barra degli strumenti** (*in alto*)  
+**Barra degli strumenti** (*in alto*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart_toolbar.jpg" width="243" height="28">  
   
@@ -457,7 +457,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
   - Parametri dell'asse, della curva e dell'immagine  
   - Salva figura  
 
-- **Barra dei filtri** (*a destra*)  
+**Barra dei filtri** (*a destra*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_off.jpg" width="24" height="24"> 
@@ -471,7 +471,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
   degli elementi  
   - Comando **Inverti**: visualizza i diagrammi di visibilità relativi alla direzione inversa del tracciato  
 
-- **Barra delle azioni** (*a destra*)  
+**Barra delle azioni** (*a destra*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> 
@@ -485,7 +485,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
   - Comando **Salva** (Ctrl+S): salva e, se necessario, sovrascrive i diagrammi correnti nel file LandXML (`.xml`) da 
   cui è stato importato il tracciato e/o il profilo  
 
-- **Barra dei diagrammi** (*in basso*)  
+**Barra dei diagrammi** (*in basso*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sight.jpg" width="24" height="24">  
@@ -502,7 +502,7 @@ particolare:
   - **Elimina** è disponibile per diagrammi contenenti coordinate di visuale libera già importate tramite **Incolla** o 
 trascinando un file di testo nella finestra  
 
-- **Barra di stato** (*in basso*)  
+**Barra di stato** (*in basso*)  
   Come nella finestra principale, la barra di stato mostra i messaggi di conferma delle operazioni di *copia*, 
 *incolla*, *elimina*, *salva* ed eventuali errori, con l’ora dell’evento e una breve descrizione.  
 
@@ -542,7 +542,7 @@ non vengono elencati nell'esportazione dei rapporti delle verifiche.
 
 Oltre alla vista centrale, sono disponibili due barre:  
 
-- **Barra delle azioni** (*in alto*)  
+**Barra delle azioni** (*in alto*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24">  
@@ -551,7 +551,7 @@ Oltre alla vista centrale, sono disponibili due barre:
   elementi planimetrici e altimetrici in formato `.txt`  
   - Comando **Salva anteprima**: salva l'anteprima corrente in formato `.pdf` / `.html`  
 
-- **Barra delle viste** (*in basso*)  
+**Barra delle viste** (*in basso*)  
 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> 
   <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
@@ -621,7 +621,7 @@ I dati del tracciato/profilo e le coordinate del diagramma di visuale libera pos
 
 I dati del tracciato e del profilo possono essere importati da Civil 3D in Stradifica in due modalità:  
 
-- Impostare la vista desiderata (**Tracciato** o **Profilo**) nella finestra principale, copiare i dati degli elementi 
+1- Impostare la vista desiderata (**Tracciato** o **Profilo**) nella finestra principale, copiare i dati degli elementi 
 dall'**editor geometria** con il comando *copia tutto*/*copy all* e incollarli nella finestra principale di Stradifica 
 utilizzando il comando **Incolla** tramite una delle seguenti opzioni:  
   - Combinazione da tastiera *Ctrl+V*  
@@ -634,7 +634,7 @@ utilizzando il comando **Incolla** tramite una delle seguenti opzioni:
   In alternativa, è possibile incollare i dati in un file `.txt` o in un foglio Excel `.xlsx`, salvarlo e importarlo 
 successivamente trascinandolo nella finestra principale.  
 
-- Esportare il tracciato e, se disponibile, il profilo in formato LandXML `.xml`, quindi importarlo in Stradifica 
+2- Esportare il tracciato e, se disponibile, il profilo in formato LandXML `.xml`, quindi importarlo in Stradifica 
 trascinando il file nella finestra principale.  
   Dopo l'importazione, verrà richiesto di selezionare il tracciato e, eventualmente, il profilo da caricare.  
   *Nota: il nome del tracciato/profilo selezionato verrà proposto automaticamente per le importazioni successive.*  
@@ -760,7 +760,7 @@ e/o visibilità da reimportare successivamente in Civil 3D come profili associat
 Durante l’importazione dei dati geometrici separati da tabulazione (tramite copia-incolla, file `*.txt` o `*.xlsx`), 
 vengono cercate le seguenti colonne:  
 
-- Importazione di un tracciato:  
+Importazione di un tracciato:  
   - *No. / N.*  
   - *Length / Lunghezza*  
   - *Radius / Raggio*  
@@ -771,7 +771,7 @@ vengono cercate le seguenti colonne:
   - *End Direction / Direzione finale*  
   - *Greater than 180 / Maggiore di 180*  
 
-- Importazione di un profilo:  
+Importazione di un profilo:  
   - *No. / N.*  
   - *PVI Station / Progressiva VA*  
   - *Grade Out / Pendenza % in uscita*  
@@ -783,11 +783,11 @@ specifica il primo parametro mancante. Alla conferma di lettura del messaggio, v
 
 Nel caso di importazione da file LandXML (`*.xml`), vengono cercati i seguenti parametri:  
 
-- Importazione di un tracciato:  
+Importazione di un tracciato:  
   - Line: *length*  
   - Spiral: *length, radiusStart, radiusEnd*  
   - Curve: *length, radius, cw*  
-- Importazione di un profilo:  
+Importazione di un profilo:  
   - PVI  
   - ParaCurve  
 
@@ -859,8 +859,12 @@ Questa applicazione utilizza le icone Material Symbols da Google Fonts, distribu
 
 ---
 ## 🔄 11. Aggiornamenti  
+All'avvio, l'applicazione verifica automaticamente la disponibilità di nuove versioni. 
+Se disponibile, verrà mostrato un messaggio con le informazioni sulla versione e il link per il download.  
+
 Scopri il repository di distribuzione su https://github.com/eslamanter/stradifica-release per gli aggiornamenti.  
 
 ---
 Stradifica v2.1  
+Registrato al Registro Pubblico Speciale per i Programmi per Elaboratore della SIAE con il N. D000028853.  
 Copyright © Eslam Anter, 2025  
