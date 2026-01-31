@@ -11,9 +11,9 @@ plano-altimetriche sui tracciati stradali, in conformità alla normativa italian
 ### 👥 2.1 Destinatari  
 Categorie di utenti a cui Stradifica è rivolto:  
 - **Università e istituti di istruzione superiore**  
-  per corsi di ingegneria civile, trasporti, progettazione stradale e infrastrutturale
+  per corsi di ingegneria civile, trasporti, progettazione stradale e infrastrutturale  
 - **Docenti e ricercatori**  
-  come supporto didattico e per attività di analisi e sperimentazione
+  come supporto didattico e per attività di analisi e sperimentazione  
 - **Studi tecnici e professionisti**  
   per dimostrazioni, validazioni preliminari e attività illustrative non destinate alla produzione  
 
@@ -31,13 +31,13 @@ Stradifica può essere impiegato in vari scenari pratici, tra cui:
 ## 📚 3. Termini d'uso  
 ### 🎓 Licenza d'uso educativo  
 Questa versione del software è distribuita come eseguibile compilato (`.exe`) ed è destinata **esclusivamente a scopi 
-educativi e non commerciali**.
+educativi e non commerciali**.  
 
 **🚫 3.1 Restrizioni**  
 
-- Vietata modifica o decompilazione  
+- Vietata qualsiasi modifica o decompilazione  
 - Vietata la distribuzione commerciale  
-- Vietato l’uso in ambienti di produzione a scopo di lucro  
+- Vietato l’uso a scopo di lucro  
 
 Per richieste o autorizzazioni oltre i termini di questa licenza:  
   **eslam.anter@outlook.com**  
@@ -104,13 +104,13 @@ L'applicazione calcola i seguenti diagrammi di visibilità minima per entrambi i
 
 L'applicazione adotta i seguenti criteri per la verifica dell'andamento planimetrico dell'asse stradale.  
 
-- Rettifilo:  
+**Rettifilo:**  
   - [x] Lunghezza minima (§5.2.2)  
   - [x] Lunghezza massima (§5.2.2)  
   - [x] Lunghezza massima di flesso (§5.2.5)  
 
 
-- Clotoide di transizione:  
+**Clotoide di transizione:**  
   - [x] Parametro A minimo approssimato da limitazione del contraccolpo (§5.2.5)  
   - [ ] Parametro A minimo esatto da limitazione del contraccolpo (§5.2.5)  
   - [x] Parametro A minimo da criterio ottico (§5.2.5)  
@@ -124,7 +124,7 @@ L'applicazione adotta i seguenti criteri per la verifica dell'andamento planimet
     la normativa, ma richiede particolare attenzione all’andamento dei cigli lungo la transizione.</small>  
 
 
-- Curva circolare:  
+**Curva circolare:**  
   - [x] Sviluppo minimo per corretta percezione (§5.2.2)  
   - [x] Differenza massima di velocità da Vpmax (§5.4.4)  
   - [x] Differenza massima di velocità da curva precedente/successiva (§5.4.4)  
@@ -137,11 +137,11 @@ L'applicazione adotta i seguenti criteri per la verifica dell'andamento planimet
 
 L'applicazione adotta i seguenti criteri per la verifica dell'andamento altimetrico dell'asse stradale.  
 
-- Livelletta:  
+**Livelletta:**  
   - [x] Pendenza massima (§5.3.1)  
 
 
-- Raccordo parabolico:  
+**Raccordo parabolico:**  
   - [x] Raggio minimo da distanza di visibilità per l'arresto (§5.1.2, §5.3.3, §5.3.4)  
   - [x] Raggio minimo da distanza di visibilità per il sorpasso (§5.1.3, §5.3.3, §5.3.4)  
   - [x] Raggio minimo per evitare contatto con la superficie (§5.3.2)  
@@ -163,16 +163,16 @@ Decreto Ministeriale 19 aprile 2006 (G.U. n.170 del 24/07/2006)
 
 L'applicazione adotta i seguenti criteri aggiuntivi per la verifica dell'andamento plano-altimetrico dell'asse della rampa.  
 
-- Curva circolare:  
+**Curva circolare:**  
   - [x] Raggio planimetrico minimo (§4.7.2)  
 
 
-- Livelletta:  
+**Livelletta:**  
   - [x] Pendenza massima in salita (§4.7.2)  
   - [x] Pendenza massima in discesa (§4.7.2)  
 
 
-- Raccordo parabolico:  
+**Raccordo parabolico:**  
   - [x] Raggio verticale minimo (§4.7.2)  
 
 ### 📘 5.4 D.G.R. 27/09/2006 Regione Lombardia  
@@ -192,7 +192,7 @@ velocità di progetto superiori a 140 km/h, ove non esplicitamente fornito nel D
 - **Spazio su disco**: 253 MB  
 - **Autodesk Civil 3D**: versione English o Italiano  
 
-**Nota**: Il software non è firmato digitalmente. Al primo avvio potrebbe comparire l'avviso di Windows Defender SmartScreen. 
+**Nota**: Al primo avvio potrebbe comparire l'avviso di Windows Defender SmartScreen. 
 Per autorizzare l'esecuzione, selezionare "Più informazioni" e poi "Esegui comunque".  
 
 ---
@@ -331,15 +331,15 @@ calcoli delle verifiche e sulle informazioni visualizzate nelle altre finestre.
 La finestra è suddivisa in due schede principali: **Piattaforma** e **Verifiche**.
 
 **Scheda Piattaforma**  
-- **Tipo di tracciato**  
-  - *Strada*: per tracciati stradali secondo il D.M. del 05/11/2001  
+**Tipo di tracciato**  
+  *Strada*: per tracciati stradali secondo il D.M. del 05/11/2001  
     - **Tipo di strada**: selezionabile tra le categorie stradali previste  
     - **Tipo di piattaforma**  
       - *Carreggiata singola*: a doppio senso di marcia  
       - *Carreggiata monosenso*  
       - *Carreggiate separate*: ciascuna a senso unico di marcia  
     - **Larghezza del margine interno** [m]: valore non negativo (solo per le carreggiate separate)  
-  - *Rampa*: per tracciati di rampe in intersezioni a livelli sfalsati secondo il D.M. del 19/04/2006  
+  *Rampa*: per tracciati di rampe in intersezioni a livelli sfalsati secondo il D.M. del 19/04/2006  
     - **Tipo di strada di provenienza**: selezionabile tra le categorie stradali previste  
     - **Tipo di strada di destinazione**: selezionabile tra le categorie stradali previste  
     - **Tipo di rampa**  
@@ -350,7 +350,7 @@ La finestra è suddivisa in due schede principali: **Piattaforma** e **Verifiche
       - *Monodirezionale*  
       - *Bidirezionale*  
 
-- **Posizione dell'asse**  
+**Posizione dell'asse**  
   - *Centro*  
   - *Sinistra* (ciglio destro basso -2.50%)  
   - *Destra* (ciglio sinistro alto +2.50%)  
@@ -414,7 +414,7 @@ Per ciascuna tratta sono modificabili i seguenti parametri:
 - **Bloc. fine trac.**: blocco della progressiva finale alla progressiva del tracciato (default: false)  
 - **Lunghezza**: lunghezza della tratta [m] (default: 000.000)  
 - **V. max**: velocità massima sulla tratta [km/h] (default: 0; max: 160)  
-- **Accelerazione**: accelerazione in uscita dalla tratta a velocità ridotta [m/s²] (e decelerazione in entrata)  
+- **Accelerazione**: accelerazione in uscita dalla tratta a velocità ridotta [m/s²] (e decelerazione in entrata) 
   (default: 0.8; max: 3.0)  
 - **+ T. reazione**: tempo di reazione aggiunto [s] (default: 0.0; max: 3.0)  
 
@@ -793,15 +793,14 @@ Importazione di un profilo:
 
 **Nota bene**  
 - Nella variazione dei parametri geometrici di input (es. lunghezza, A, raggio) tra due importazioni successive vengono 
-  mantenuti i criteri attivi e disattivi dell'elemento solo se mantiene la stessa posizione rispetto al tracciato / profilo.  
-  Al primo elemento geometrico che risulta di tipo diverso da quello corrispondente alla sua posizione nella importazione 
-  precedente vengono associato di default i criteri di verifica attivati nella **finestra delle impostazioni** 
-  dall'elemento in esame in poi.  
-  Ad esempio, se viene esaminato un tracciato costituito dall'insieme di *rettifilo-transizione-curva-transizione-rettifilo*
-  con una successiva importazione del tracciato modificato a *rettifilo-transizione-curva-transizione-curva-transizione-rettifilo*, 
-  vengono attivati i criteri di default agli ultimi 3 elementi importati *-curva-transizione-rettifilo*, incluso il 
-  rettifilo finale che ha cambiato posizione con l'inserimento della transizione di continuità e della curva policentrica.  
-  Eventuali modifiche ai criteri attivati per il rettifilo finale verranno sovrascritte.  
+mantenuti i criteri attivi e disattivi dell'elemento solo se mantiene la stessa posizione rispetto al tracciato / profilo. 
+Al primo elemento geometrico che risulta di tipo diverso da quello corrispondente alla sua posizione nella importazione 
+precedente vengono associato di default i criteri di verifica attivati nella **finestra delle impostazioni** 
+dall'elemento in esame in poi. Ad esempio, se viene esaminato un tracciato costituito dall'insieme di *rettifilo-transizione-curva-transizione-rettifilo*
+con una successiva importazione del tracciato modificato a *rettifilo-transizione-curva-transizione-curva-transizione-rettifilo*, 
+vengono attivati i criteri di default agli ultimi 3 elementi importati *-curva-transizione-rettifilo*, incluso il 
+rettifilo finale che ha cambiato posizione con l'inserimento della transizione di continuità e della curva policentrica. 
+Eventuali modifiche ai criteri attivati per il rettifilo finale verranno sovrascritte.  
 - Non viene esaminata la fattibilità geometrica né la correttezza della sequenza degli elementi del tracciato/profilo, 
 trattandosi di dati provenienti da software di modellazione stradale.  
 - Si assume la conformità normativa dei tipi di elementi che compongono il tracciato plano-altimetrico. Pertanto:  
