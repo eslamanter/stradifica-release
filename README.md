@@ -266,11 +266,7 @@ Le barre dei comandi sono suddivise in:
 
 **Barra degli strumenti** (*in alto*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24">  
 
   - Finestra delle **Impostazioni**: gestione delle caratteristiche della strada e dei criteri di verifica  
   - Finestra dei **Limiti locali**: personalizzazione delle tratte con limiti di velocità locali  
@@ -280,27 +276,21 @@ Le barre dei comandi sono suddivise in:
 
 **Barra delle informazioni** (*in alto*)   
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/info.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/help.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/info.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/help.jpg" width="24" height="24">  
 
   - Finestra delle **Informazioni**: versione, note generali e contatti  
   - Finestra della **Guida** (F1): documentazione online completa (richiede connessione a Internet)  
 
 **Barra dei filtri** (*a destra*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_off.jpg" width="24" height="24"> | 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_on.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_off.jpg" width="24" height="24"> | <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/filter_on.jpg" width="24" height="24">  
 
   - Comando **Evidenzia**: evidenzia gli elementi non verificati e le verifiche non soddisfatte  
   - Comando **Filtra**: mostra solo gli elementi non verificati  
 
 **Barra delle azioni** (*a destra*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24">  
 
   Le azioni di questa barra sono accessibili anche tramite il tasto destro del mouse nella tabella degli elementi:  
   - Comando **Copia** (Ctrl+C): copia il contenuto della vista corrente in formato tabulato  
@@ -309,8 +299,7 @@ Le barre dei comandi sono suddivise in:
 
 **Barra delle viste** (*in basso*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
 
   - Vista **Tracciato**: visualizza gli elementi e le verifiche del tracciato  
   - Vista **Profilo**: visualizza gli elementi e le verifiche del profilo  
@@ -331,35 +320,35 @@ calcoli delle verifiche e sulle informazioni visualizzate nelle altre finestre.
 La finestra è suddivisa in due schede principali: **Piattaforma** e **Verifiche**.
 
 **Scheda Piattaforma**  
-**Tipo di tracciato**  
-  *Strada*: per tracciati stradali secondo il D.M. del 05/11/2001  
-    - **Tipo di strada**: selezionabile tra le categorie stradali previste  
-    - **Tipo di piattaforma**  
+  **Tipo di tracciato:**  
+  *1. Strada*: per tracciati stradali secondo il D.M. del 05/11/2001  
+    **Tipo di strada**: selezionabile tra le categorie stradali previste  
+    **Tipo di piattaforma**  
       - *Carreggiata singola*: a doppio senso di marcia  
       - *Carreggiata monosenso*  
       - *Carreggiate separate*: ciascuna a senso unico di marcia  
-    - **Larghezza del margine interno** [m]: valore non negativo (solo per le carreggiate separate)  
-  *Rampa*: per tracciati di rampe in intersezioni a livelli sfalsati secondo il D.M. del 19/04/2006  
-    - **Tipo di strada di provenienza**: selezionabile tra le categorie stradali previste  
-    - **Tipo di strada di destinazione**: selezionabile tra le categorie stradali previste  
-    - **Tipo di rampa**  
+    **Larghezza del margine interno** [m]: valore non negativo (solo per le carreggiate separate)  
+
+  *2. Rampa*: per tracciati di rampe in intersezioni a livelli sfalsati secondo il D.M. del 19/04/2006  
+    **Tipo di strada di provenienza**: selezionabile tra le categorie stradali previste  
+    **Tipo di strada di destinazione**: selezionabile tra le categorie stradali previste  
+    **Tipo di rampa**  
       - *Diretta*  
       - *Semidiretta*  
       - *Indiretta*  
-    - **Direzione**  
+    **Direzione**  
       - *Monodirezionale*  
       - *Bidirezionale*  
-
-**Posizione dell'asse**  
-  - *Centro*  
-  - *Sinistra* (ciglio destro basso -2.50%)  
-  - *Destra* (ciglio sinistro alto +2.50%)  
-
-- **Numero di corsie per senso di marcia**: valore conforme alla normativa (di massimo 5)  
-- **Larghezza della corsia** [m]: valore compreso tra 2.75 e 4.00  
-- **Pendenza trasversale massima** [m/m]: valore compreso tra 0.025 e 0.070  
-- **Velocità minima di progetto** [km/h]: valore conforme alla normativa  
-- **Velocità massima di progetto** [km/h]: valore conforme alla normativa  
+  
+  **Posizione dell'asse**  
+    - *Centro*  
+    - *Sinistra* (ciglio destro basso -2.50%)  
+    - *Destra* (ciglio sinistro alto +2.50%)  
+  **Numero di corsie per senso di marcia**: valore conforme alla normativa (di massimo 5)  
+  **Larghezza della corsia** [m]: valore compreso tra 2.75 e 4.00  
+  **Pendenza trasversale massima** [m/m]: valore compreso tra 0.025 e 0.070  
+  **Velocità minima di progetto** [km/h]: valore conforme alla normativa  
+  **Velocità massima di progetto** [km/h]: valore conforme alla normativa  
 
 Le opzioni disponibili sono limitate a quelle ammesse dalla normativa per ciascuna combinazione di parametri, al fine di 
 ridurre errori non intenzionali nella configurazione della piattaforma.  
@@ -403,8 +392,7 @@ Secondo il D.M. 05/11/2001, tali condizioni richiedono il ricalcolo di:
 - Distanza di visuale minima richiesta per l’arresto (§5.4.1)  
 
 In alto alla finestra sono presenti i tasti 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/add.jpg" width="16" height="16"> e 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/remove.jpg" width="16" height="16"> 
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/add.jpg" width="16" height="16"> e <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/remove.jpg" width="16" height="16"> 
 per aggiungere una nuova tratta o eliminare quella selezionata.  
 
 Per ciascuna tratta sono modificabili i seguenti parametri:  
@@ -459,12 +447,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
 
 **Barra dei filtri** (*a destra*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_off.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/forward.jpg" width="24" height="24"> | 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_on.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/back.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_off.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_off.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/forward.jpg" width="24" height="24"> | <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sync_on.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/back.jpg" width="24" height="24">  
 
   - Comando **Evidenzia**: evidenzia i limiti (inferiore e superiore) e le aree critiche (non verificate)  
   - Comando **Sincronizza**: sincronizza l’intervallo evidenziato (in grigio) con l’elemento selezionato nella tabella 
@@ -473,10 +456,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
 
 **Barra delle azioni** (*a destra*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/overwrite.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/copy.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/paste.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/delete.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/overwrite.jpg" width="24" height="24">  
 
   - Comando **Copia** (Ctrl+C): copia le coordinate dei diagrammi correnti in formato tabulato  
   - Comando **Incolla** (Ctrl+V): incolla un testo delimitato da virgole contenente le coordinate del diagramma di 
@@ -487,8 +467,7 @@ visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.
 
 **Barra dei diagrammi** (*in basso*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sight.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sight.jpg" width="24" height="24">  
 
   - Diagramma delle **velocità**  
   - Diagrammi di **visibilità**:  
@@ -544,8 +523,7 @@ Oltre alla vista centrale, sono disponibili due barre:
 
 **Barra delle azioni** (*in alto*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24">  
 
   - Comando **Esporta registro**: esporta il registro completo con le procedure di verifica di tutti i criteri per gli 
   elementi planimetrici e altimetrici in formato `.txt`  
@@ -553,8 +531,7 @@ Oltre alla vista centrale, sono disponibili due barre:
 
 **Barra delle viste** (*in basso*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/alignment.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile.jpg" width="24" height="24">  
 
   - Vista **Tracciato**: visualizza le verifiche degli elementi planimetrici nella vista centrale  
   - Vista **Profilo**: visualizza le verifiche degli elementi altimetrici nella vista centrale  
@@ -628,8 +605,7 @@ utilizzando il comando **Incolla** tramite una delle seguenti opzioni:
   - Menu contestuale con tasto destro del mouse sulla tabella degli elementi  
   - Barra delle azioni  
 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/geometry_editor.jpg">  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/grid_view.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/geometry_editor.jpg"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/grid_view.jpg">  
 
   In alternativa, è possibile incollare i dati in un file `.txt` o in un foglio Excel `.xlsx`, salvarlo e importarlo 
 successivamente trascinandolo nella finestra principale.  
@@ -654,12 +630,8 @@ I criteri di ogni singolo elemento possono essere attivati o disattivati con un 
 verifiche, agendo sul criterio relativo all’elemento selezionato nella **tabella degli elementi**.  
 Il criterio di verifica inattivo viene:  
 
-- segnalato con la scritta 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/inactive.jpg" width="16" height="16"> 
-**Inattivo** nella colonna **esito** nella **tabella delle verifiche**  
-- escluso dai controlli dei parametri nella **tabella degli elementi** se il filtro 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="16" height="16"> 
-**Evidenzia** è attivato  
+- segnalato con la scritta <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/inactive.jpg" width="16" height="16"> **Inattivo** nella colonna **esito** nella **tabella delle verifiche**  
+- escluso dai controlli dei parametri nella **tabella degli elementi** se il filtro <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/highlight_on.jpg" width="16" height="16"> **Evidenzia** è attivato
 - escluso dal riepilogo delle verifiche nella **finestra dell'esportazione dei rapporti**  
 
 Le modifiche ai criteri attivi nelle impostazioni influenzano solo gli elementi nuovi importati.  
