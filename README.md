@@ -192,8 +192,8 @@ velocità di progetto superiori a 140 km/h, ove non esplicitamente fornito nel D
 - **Spazio su disco**: 253 MB  
 - **Autodesk Civil 3D**: versione English o Italiano  
 
-**Nota**: Al primo avvio potrebbe comparire l'avviso di Windows Defender SmartScreen. 
-Per autorizzare l'esecuzione, selezionare "Più informazioni" e poi "Esegui comunque".  
+🔎 **Nota**: Al primo avvio potrebbe comparire l'avviso di **Windows Defender SmartScreen**. 
+Per autorizzare l'esecuzione, selezionare "**Più informazioni**" e poi "**Esegui comunque**".  
 
 ---
 ## 🖥️ 7. Interfaccia  
@@ -366,6 +366,7 @@ I criteri sono suddivisi in sottocategorie, ciascuna in una scheda dedicata:
   - Rettifilo  
   - Transizione (clotoide)  
   - Curva (arco di cerchio)  
+
 **Profilo**  
   - Livelletta  
   - Curva (parabola)  
