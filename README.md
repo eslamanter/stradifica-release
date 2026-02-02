@@ -661,12 +661,12 @@ precedente e/o successiva.
 Per le velocità di 1° fase (**V. 1°fase** delle curve planimetriche) e di fase finale (**V. max** di ogni elemento), i 
 colori variano secondo le seguenti condizioni:  
 
-- **Blu**: se **V. 1°fase** o **V. max** è pari a **Vpmax**  
-- **Grigio**: se **V. max** è inferiore a **Vpmax** per effetto di un limite locale applicato  
-- **Rosso**: se **V. 1°fase** o **V. max** è inferiore a **Vpmin** a causa di un raggio planimetrico insufficiente  
-- **Giallo**: se **V. max** è inferiore a **Vpmin** per effetto di un altro elemento planimetrico più vincolante  
-- **Arancione**: se la differenza di **V. max** con l’elemento successivo o precedente supera il limite ammesso  
-- **Verde**: se **V. 1°fase** o **V. max** è superiore a **Vpmin**  
+- **<span style="color: #156082;">Blu</span>**: se **V. 1°fase** o **V. max** è pari a **Vpmax**  
+- **<span style="color: #808080;">Grigio</span>**: se **V. max** è inferiore a **Vpmax** per effetto di un limite locale applicato  
+- **<span style="color: #d80404;">Rosso</span>**: se **V. 1°fase** o **V. max** è inferiore a **Vpmin** a causa di un raggio planimetrico insufficiente  
+- **<span style="color: #b8860b;">Giallo</span>**: se **V. max** è inferiore a **Vpmin** per effetto di un altro elemento planimetrico più vincolante  
+- **<span style="color: #e86414;">Arancione</span>**: se la differenza di **V. max** con l’elemento successivo o precedente supera il limite ammesso  
+- **<span style="color: #48752c;">Verde</span>**: se **V. 1°fase** o **V. max** è superiore a **Vpmin**  
 
 Se più condizioni sono soddisfatte contemporaneamente, viene applicato il colore corrispondente alla condizione di 
 ordine superiore.  
