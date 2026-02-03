@@ -63,8 +63,17 @@ L’autore declina ogni responsabilità per danni diretti o indiretti derivanti 
 inclusi errori nei dati, interpretazioni errate o decisioni basate sui risultati generati.  
 
 ---
-## 📜 5. Riferimenti normativi  
-### 📘 5.1 D.Lgs. 285/1992  
+## 🧩 5. Requisiti  
+- **Sistema operativo**: Windows 8, 10, 11  
+- **Spazio su disco**: 253 MB  
+- **Autodesk Civil 3D**: versione English o Italiano  
+
+🔎 **Nota**: Al primo avvio potrebbe comparire l'avviso di **Windows Defender SmartScreen**. 
+Per autorizzare l'esecuzione, selezionare "**Più informazioni**" e poi "**Esegui comunque**".  
+
+---
+## 📜 6. Riferimenti normativi  
+### 📘 6.1 D.Lgs. 285/1992  
 "NUOVO CODICE DELLA STRADA" - 
 Decreto Legislativo 30 aprile 1992, n. 285 e successivi aggiornamenti  
 [[Visualizza il testo ufficiale aggiornato](https://www.mit.gov.it/documentazione/codice-della-strada)]  
@@ -88,7 +97,7 @@ I criteri contrassegnati sono attivati di default al primo avvio,
 mentre quelli non selezionati non lo sono, in quanto rappresentano 
 verifiche ridondanti su parametri già considerati implicitamente da altri criteri.  
 
-### 📘 5.2 D.M. 6792/2001  
+### 📘 6.2 D.M. 6792/2001  
 "NORME FUNZIONALI E GEOMETRICHE PER LA COSTRUZIONE DELLE STRADE" - 
 Decreto Ministeriale 5 novembre 2001, n. 6792 (G.U. 04/01/2002)  
 [[Visualizza il testo ufficiale](https://www.mit.gov.it/normativa/decreto-ministeriale-protocollo-6792-del-05112001)]  
@@ -154,7 +163,7 @@ L'applicazione calcola i seguenti diagrammi delle velocità.
 - Diagramma delle velocità-prima fase (§5.4.3)  
 - Diagramma delle velocità-fase finale (§5.4.3, §5.4.4)  
 
-### 📘 5.3 D.M. 19/04/2006  
+### 📘 6.3 D.M. 19/04/2006  
 "NORME FUNZIONALI E GEOMETRICHE PER LA COSTRUZIONE DELLE INTERSEZIONI STRADALI" - 
 Decreto Ministeriale 19 aprile 2006 (G.U. n.170 del 24/07/2006)  
 [[Visualizza il testo ufficiale](https://www.mit.gov.it/normativa/decreto-ministeriale-19042006)]  
@@ -175,7 +184,7 @@ L'applicazione adotta i seguenti criteri aggiuntivi per la verifica dell'andamen
 **Raccordo parabolico:**  
   - [x] Raggio verticale minimo (§4.7.2)  
 
-### 📘 5.4 D.G.R. 27/09/2006 Regione Lombardia  
+### 📘 6.4 D.G.R. 27/09/2006 Regione Lombardia  
 "Elementi tecnici puntuali inerenti ai criteri per la determinazione delle caratteristiche funzionali e geometriche per la 
 costruzione dei nuovi tronchi viari e per l’ammodernamento ed il potenziamento dei tronchi viari esistenti ex art. 4, r.r. 
 24 aprile 2006, n. 7" - 
@@ -185,15 +194,6 @@ Deliberazione Giunta Regionale 27 settembre 2006 n.8/3219
 
 - Questo testo è stato utilizzato come riferimento per i parametri cinematici e i coefficienti relativi a 
 velocità di progetto superiori a 140 km/h, ove non esplicitamente fornito nel D.M. 05/11/2001  
-
----
-## 🧩 6. Requisiti  
-- **Sistema operativo**: Windows 8, 10, 11  
-- **Spazio su disco**: 253 MB  
-- **Autodesk Civil 3D**: versione English o Italiano  
-
-🔎 **Nota**: Al primo avvio potrebbe comparire l'avviso di **Windows Defender SmartScreen**. 
-Per autorizzare l'esecuzione, selezionare "**Più informazioni**" e poi "**Esegui comunque**".  
 
 ---
 ## 🖥️ 7. Interfaccia  
@@ -760,6 +760,7 @@ Importazione di un tracciato:
   - Line: *length*  
   - Spiral: *length, radiusStart, radiusEnd*  
   - Curve: *length, radius, cw*  
+
 Importazione di un profilo:  
   - PVI  
   - ParaCurve  
