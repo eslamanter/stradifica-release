@@ -43,10 +43,14 @@ Per richieste o autorizzazioni oltre i termini di questa licenza:
   **eslam.anter@outlook.com**  
 
 ### 🔒 3.2 Raccolta dei dati  
-Stradifica **non raccoglie, memorizza né trasmette alcun dato personale**:  
-- Nessuna connessione a server esterni durante il funzionamento, tranne per la visualizzazione della guida  
-- Esecuzione anonima senza registrazione di dati o log utente  
-- Le impostazioni scelte dall'utente vengono salvate localmente nel percorso:  
+Stradifica **non raccoglie, memorizza né trasmette** alcun dato personale:  
+- **Nessuna connessione** a server esterni durante il funzionamento, tranne per:  
+  1. il controllo dell'ultima versione all'avvio:  
+https://raw.githubusercontent.com/eslamanter/stradifica-release/main/version.json  
+  2. la visualizzazione della guida:  
+https://raw.githubusercontent.com/eslamanter/stradifica-release/main/README.md  
+- **Esecuzione anonima** senza registrazione di dati o log utente  
+- Le impostazioni scelte dall'utente vengono salvate **localmente** nel percorso:  
   `C:\Users\<User>\AppData\Local\Stradifica\config.json`  
 
 ---
@@ -797,7 +801,7 @@ Di seguito il flusso delle operazioni che vengono eseguite in modo **automatico*
 Le precedenti operazioni vengono eseguite ogni volta viene attivata una delle seguenti azioni:  
 - **Importazione** (avvenuta con successo) di elementi planimetrici/altimetrici tramite uno dei modi di importazione  
 - Modifica di una delle caratteristiche della strada nella finestra delle **impostazioni**  
-- Aggiunta/eliminazione di una tratta a limite locale nella finestra dei **limiti locali**  
+- Aggiunta, modifica o eliminazione di una tratta a limite locale nella finestra dei **limiti locali**  
 
 Di conseguenza i risultati numerici e grafici relativi, in tutte le finestre, vengono aggiornati.  
 
