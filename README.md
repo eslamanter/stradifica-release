@@ -115,6 +115,9 @@ L'applicazione calcola i seguenti diagrammi di visibilità minima per entrambi i
 
 **📐 Criteri di progettazione del tracciato planimetrico: (§5.2)**  
 
+- Calcolo della pendenza trasversale della piattaforma in curve: (§5.2.4)  
+- Calcolo dell'allargamento della piattaforma in curva: (§5.2.7)  
+
 L'applicazione adotta i seguenti criteri per la verifica dell'andamento planimetrico dell'asse stradale.  
 
 **Rettifilo:**  
@@ -553,11 +556,12 @@ La finestra è suddivisa orizzontalmente in due sezioni:
   Contiene i tipi di elementi geometrici tra cui selezionare uno, e gli input necessari da definire per l'elemento scelto:  
 
   - **Tracciato**  
-    - *Rettifilo*  
+    *Rettifilo*  
       - **V.max**: velocità massima del rettifilo [km/h]  
       - **A1**: parametro di scala della clotoide precedente [m]  
       - **A2**: parametro di scala della clotoide successiva [m]  
-    - *Transizione (Clotoide)*  
+
+    *Transizione (Clotoide)*  
       - **V.max**: velocità massima della clotoide [km/h]  
       - **A1**: parametro di scala della clotoide precedente [m]  
       - **A2**: parametro di scala della clotoide successiva [m]  
@@ -565,15 +569,17 @@ La finestra è suddivisa orizzontalmente in due sezioni:
       - **Rf**: raggio finale [m]  
       - **qi**: pendenza trasversale iniziale [m/m]  
       - **qf**: pendenza trasversale finale [m/m]  
-    - *Curva (Circolare)*  
+
+    *Curva (Circolare)*  
       - **V.max**: velocità massima della curva circolare [km/h]  
       - **L1**: lunghezza del rettifilo precedente [m]  
-      - **L2**: lunghezza del rettifilo successivo [m]
+      - **L2**: lunghezza del rettifilo successivo [m]  
 
   - **Profilo**  
-    - *Livelletta*  
+    *Livelletta*  
       - **V.max**: velocità massima della livelletta [km/h]  
-    - *Curva (Parabola)*  
+
+    *Curva (Parabola)*  
       - **V.max**: velocità massima del raccordo verticale [km/h]  
       - **L**: lunghezza del raccordo [m]  
       - **i**: pendenza longitudinale media del raccordo [m/m]  
@@ -794,9 +800,9 @@ Di seguito il flusso delle operazioni che vengono eseguite in modo **automatico*
   - planimetrici  
   - altimetrici  
 - Il calcolo delle distanze minime di visibilità per:  
-  - l'arresto (a passo di 20 m, se l'andamento altimetrico è definito)  
-  - il sorpasso (se il tracciato è per una carreggiata singola a doppio senso di marcia)  
-  - la manovra di cambio di corsia (se il tracciato è per una carreggiata monosenso o carreggiate separate)  
+  - **l'arresto**: ogni 20 m, con passo di integrazione dv=1 km/h, se l'andamento altimetrico è definito  
+  - **il sorpasso**: se il tracciato è per una carreggiata singola a doppio senso di marcia  
+  - **la manovra di cambio di corsia**: se il tracciato è per una carreggiata monosenso o carreggiate separate  
 
 Le precedenti operazioni vengono eseguite ogni volta viene attivata una delle seguenti azioni:  
 - **Importazione** (avvenuta con successo) di elementi planimetrici/altimetrici tramite uno dei modi di importazione  
