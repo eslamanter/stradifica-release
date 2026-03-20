@@ -29,12 +29,11 @@ Stradifica può essere impiegato in vari scenari pratici, tra cui:
 
 ---
 ## 📚 3. Termini d'uso  
-### 🎓 Licenza d'uso educativo  
+### 🎓 3.1 Licenza  
 Questa versione del software è distribuita come eseguibile compilato (`.exe`) ed è destinata **esclusivamente a scopi 
 educativi e non commerciali**.  
 
-**🚫 3.1 Restrizioni**  
-
+### 🚫 3.2 Restrizioni  
 - Vietata qualsiasi modifica o decompilazione  
 - Vietata la distribuzione commerciale  
 - Vietato l’uso a scopo di lucro  
@@ -42,7 +41,7 @@ educativi e non commerciali**.
 Per richieste o autorizzazioni oltre i termini di questa licenza:  
   **eslam.anter@outlook.com**  
 
-### 🔒 3.2 Raccolta dei dati  
+### 🔒 3.3 Raccolta dei dati  
 Stradifica **non raccoglie, memorizza né trasmette** alcun dato personale:  
 - **Nessuna connessione** a server esterni durante il funzionamento, tranne per:  
   1. il controllo dell'ultima versione all'avvio:  
