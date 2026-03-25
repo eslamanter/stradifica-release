@@ -500,7 +500,7 @@ agli elementi importati. La parte centrale della finestra mostra il rapporto sel
 generali della strada e degli eventuali limiti locali inseriti. La dimensione dei caratteri può essere modificata 
 tramite **Ctrl + Scorri** prima dell'esportazione.  
 
-### 📋 Dati generali e verifiche  
+**Dati generali e verifiche**  
 
 I dati generali della strada includono gli stessi specificati nella **finestra delle impostazioni** oltre a:  
 - **Nome del tracciato**: nel caso sia importato da **LandXML**  
