@@ -68,7 +68,7 @@ inclusi errori nei dati, interpretazioni errate o decisioni basate sui risultati
 ---
 ## 🧩 5. Requisiti  
 - **Sistema operativo**: Windows 8, 10, 11  
-- **Spazio su disco**: 253 MB  
+- **Spazio su disco**: 255 MB  
 - **Autodesk Civil 3D**: versione English o Italiano  
 
 🔎 **Nota**: Al primo avvio potrebbe comparire l'avviso di **Windows Defender SmartScreen**. 
