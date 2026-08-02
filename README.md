@@ -225,7 +225,7 @@ Stradifica offre un'interfaccia grafica semplice e intuitiva, a partire da una *
 possibile accedere a tutti gli strumenti e comandi.  
 
 ### 8.1 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/main.jpg" width="24" height="24"> Finestra principale  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/main_window.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/main_window.jpg" width="100%">  
 
 La finestra principale è composta da una vista centrale, attorno alla quale sono disposte delle barre contenenti i 
 comandi per eseguire le diverse funzioni.  
