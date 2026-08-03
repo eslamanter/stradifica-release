@@ -6,8 +6,11 @@
 ## 1. Cos'è  
 **Stradifica** è un'applicazione desktop per l’esecuzione, l’analisi grafica e l’esportazione in tempo reale delle 
 verifiche plano-altimetriche dei tracciati stradali, in conformità alla normativa italiana.  
+
 In sviluppo continuo dal 2022, il progetto nasce con passione come freeware per aiutare la comunità degli ingegneri ad 
-automatizzare i flussi di lavoro. Feedback e suggerimenti sono sempre benvenuti.  
+automatizzare i flussi di lavoro, fondato sull'esperienza progettuale e sull'utilizzo di software commerciali del settore 
+quali *Autodesk Civil 3D (Country Kit Italiano)*, *Sierrasoft Roads* e *Digicorp Ingegneria Civil Design*. 
+Feedback e suggerimenti sono sempre benvenuti.  
 
 ---
 ## 2. Contesto d'uso  
@@ -15,17 +18,17 @@ automatizzare i flussi di lavoro. Feedback e suggerimenti sono sempre benvenuti.
 Categorie di utenti a cui Stradifica è rivolto:  
 
 - **Docenti, ricercatori e studenti**  
-  per corsi di ingegneria civile, trasporti e progettazione stradale,
+  per corsi di ingegneria civile, trasporti e progettazione stradale, 
   come supporto didattico e per attività di analisi e sperimentazione  
 
 - **Studi tecnici e professionisti**  
-  per validazioni preliminari e attività illustrative
+  per validazioni preliminari e attività illustrative 
   a supporto della progettazione stradale e infrastrutturale  
 
 ### 2.2 Ambiti di applicazione  
 - Verifica della conformità normativa degli elementi plano-altimetrici dei tracciati stradali  
-- Analisi grafica e confronto dei diagrammi di velocità e di visibilità   
-- Studio della fattibilità di varie soluzioni progettuali o degli scenari ipotetici  
+- Analisi grafica e confronto dei diagrammi di velocità e di visibilità  
+- Studio della fattibilità di varie soluzioni progettuali  
 
 ---
 ## 3. Termini d'uso  
@@ -34,14 +37,15 @@ Questa versione del software è distribuita come eseguibile `.exe`:
 - **Uso didattico ed educativo:** Libero.  
 - **Uso commerciale:** Consentito previa comunicazione all'autore.  
 
-In ogni caso è **obbligatoria** l'attribuzione dei crediti all'autore.  
+In ogni caso è **obbligatoria** l'attribuzione all'autore.  
 
 ### 3.2 Comunicazione uso commerciale  
 Per comunicare l'uso commerciale, inviare una descrizione del contesto di applicazione a:  
   **[eslam.anter@outlook.com](mailto:eslam.anter@outlook.com)**  
 
 ### 3.3 Restrizioni  
-- Vietata qualsiasi modifica o decompilazione  
+- Vietata qualsiasi modifica o decompilazione del software  
+- Vietata la riproduzione delle funzionalità del software senza contributo originale, a scopo di lucro, o senza attribuzione all'autore  
 
 ### 3.4 Raccolta dei dati  
 Stradifica **non raccoglie, memorizza né trasmette** alcun dato personale:  
@@ -309,7 +313,7 @@ Le barre dei comandi sono suddivise in:
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/open.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24">  
 
   - Comando **Apri file** (Ctrl+O): apre un file `.txt`, `.xlsx`, `.xml`, `.strad`  
-  - Comando **Salva progetto** (Ctrl+S): salva il progetto corrente su file `.strad`  
+  - Comando **Salva progetto** (Ctrl+S): salva il progetto corrente in un file `.strad`  
 
 Il comando **Apri file** è accompagnato da un elenco dei file di progetto `.strad` recenti, incluso l'ultimo salvataggio 
 automatico (eseguito ogni 5 minuti e alla chiusura dell'applicazione). Passando con il cursore su una voce dell'elenco, 
@@ -369,7 +373,7 @@ viene visualizzato un tooltip con il percorso, la data e l'ora dell'ultima modif
 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/search.jpg" width="24" height="24">  
 
-  - Comando **Cerca** (Ctrl+F): evidenzia il testo inserito nella tabella degli elementi in tempo reale, senza distinzione 
+  - Comando **Cerca** (Ctrl+F): cerca e mostra in evidenza il testo inserito nella tabella degli elementi in tempo reale, senza distinzione 
   tra maiuscole e minuscole  
 
 Quando attivato, il comando **Cerca** è accompagnato da un'etichetta che mostra la posizione della riga selezionata sul 
@@ -386,7 +390,7 @@ totale delle righe contenenti il testo cercato, e da due comandi aggiuntivi:
   ed eventuali errori, con l'ora dell'evento e una breve descrizione.  
 
 ### 8.2 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config.jpg" width="24" height="24"> Finestra delle impostazioni  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config_window.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/config_window.jpg" width="100%">  
 
 La finestra delle impostazioni compare di default all'avvio dell'applicazione e all'importazione di un file di progetto 
 `.strad`. Contiene una serie di opzioni che l'utente può selezionare e modificare in qualsiasi momento, con effetto 
@@ -457,19 +461,19 @@ In fondo alla finestra *Impostazioni* è presente la casella **Auto salvataggio*
 salvare automaticamente le impostazioni delle schede *Piattaforma* e *Verifiche* alla chiusura dell'applicazione.  
 
 ### 8.3 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> Finestra dei limiti cinematici locali  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/limits_window.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/limits_window.jpg" width="100%">  
 
-La finestra dei limiti cinematici locali consente di aggiungere tratte con parametri specifici, 
-come velocità massima, accelerazione e tempo di reazione aggiuntivo rispetto a quello di base.  
+La finestra dei limiti cinematici locali consente di definire tratte con parametri specifici, 
+quali velocità massima, accelerazione e tempo di reazione aggiuntivo rispetto a quello di base.  
 Queste tratte sono utili per simulare i seguenti casi reali:  
 - Presenza di punti di precedenza o stop  
-- Tratte con limite massimo di velocità ridotto rispetto al limite generale  
-- Simulazione di un comportamento di guida realistico in prossimità di incroci, dove si prevede 
+- Tratte con limite di velocità ridotto rispetto al limite generale  
+- Comportamento di guida realistico in prossimità di incroci, dove si prevede 
   un tempo di reazione maggiorato e/o valori di accelerazione/decelerazione diversi da quelli nominali  
 
-Secondo il D.M. 05/11/2001, tali condizioni richiedono il ricalcolo di:  
-- Distanza di transizione nella costruzione del diagramma di velocità (§5.1.2)  
-- Distanza di visuale minima richiesta per l’arresto (§5.4.1)  
+Tali condizioni influenzano il calcolo di:  
+- Distanza di transizione nella costruzione del diagramma delle velocità (§5.1.2)  
+- Distanza di visibilità richiesta per l’arresto (§5.4.1)  
 
 Nella parte superiore della finestra sono presenti i tasti 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/add.jpg" width="16" height="16"> e <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/remove.jpg" width="16" height="16"> 
@@ -507,14 +511,14 @@ dei casi sopra elencati. I tratti con un limite locale vengono evidenziati nella
 linea grigia nel diagramma delle velocità.  
 
 ### 8.4 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart.jpg" width="24" height="24"> Finestra dei diagrammi  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart_window.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart_window.jpg" width="100%">  
 
 Questa finestra offre una visualizzazione grafica in tempo reale del diagramma delle velocità, dell'andamento dei cigli 
 e dei vari diagrammi di visibilità, consultabili, copiabili ed esportabili in qualsiasi momento.  
 
 **Barra degli strumenti** (*in alto*)  
 
-  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart_toolbar.jpg" width="243" height="28">  
+  <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/chart_toolbar.jpg" width="332" height="36">  
   
   - Reset  
   - Vista precedente  
@@ -526,7 +530,7 @@ e dei vari diagrammi di visibilità, consultabili, copiabili ed esportabili in q
   - Salva figura  
 
 Oltre agli strumenti della barra, è possibile effettuare le seguenti azioni:  
-  - Zoom in/out: **rotella del mouse** 
+  - Zoom in/out: **rotella del mouse**  
   - Adatta vista: **F** o doppio clic sulla rotella del mouse  
 
 **Barra dei filtri** (*a destra*)  
@@ -574,7 +578,7 @@ Con la rotella del mouse è possibile eseguire lo zoom in/out lungo l'asse delle
 *incolla*, *elimina*, *salva* ed eventuali errori, con l’ora dell’evento e una breve descrizione.  
 
 ### 8.5 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24"> Finestra dell'esportazione dei rapporti  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export_window.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export_window.jpg" width="100%">  
 
 La finestra dell'esportazione consente di visualizzare in tempo reale i riepiloghi delle verifiche normative relative 
 agli elementi importati. La parte centrale della finestra mostra il rapporto selezionato, con un riepilogo dei dati 
@@ -635,7 +639,7 @@ Oltre alla vista centrale, sono disponibili tre barre:
 registro delle verifiche e il salvataggio dei rapporti.  
 
 ### 8.6 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24"> Finestra dei controlli normativi personalizzati  
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom_window.jpg">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom_window.jpg" width="100%">  
 
 La finestra dei controlli normativi personalizzati di normativa consente il calcolo dei limiti normativi dei vari criteri 
 utilizzando parametri di input fittizi, non legati al tracciato reale.  
@@ -705,7 +709,7 @@ I dati del tracciato e del profilo possono essere importati da Autodesk Civil 3D
 in due modalità:  
 
 1. Impostare la vista desiderata (**Tracciato** o **Profilo**) nella finestra principale, copiare i dati degli elementi 
-dall'*editor geometria*/*geometry editor* tramite il comando *copia tutto*/*copy all* e incollarli nella finestra principale 
+dall'*editor geometria*/*geometry editor* tramite il comando *Copia tutto*/*Copy all* e incollarli nella finestra principale 
 di Stradifica utilizzando con il comando **Incolla** da:  
   - Tastiera *Ctrl+V*  
   - Menu contestuale (tasto destro del mouse sulla tabella degli elementi)  
@@ -746,7 +750,9 @@ piattaforma e di verifiche.
 Il formato `.strad` conserva il percorso **assoluto** del file LandXML da cui sono stati importati gli elementi. 
 Se un file `.strad` viene aperto in assenza del relativo `.xml` (ad esempio per cambio di percorso o di PC), 
 Stradifica cerca automaticamente il file `.xml` nella stessa cartella del file `.strad`, facilitando in qualsiasi 
-momento l'esportazione dei profili dei diagrammi di velocità/visibilità nel file LandXML di origine.  
+momento l'esportazione dei profili dei diagrammi di velocità/visibilità nel file LandXML di origine. Il percorso del 
+file `.xml` è comunque consultabile passando con il cursore sul comando **Salva XML** nella barra di esportazione della 
+**finestra dei diagrammi**.  
 
 ### 9.3 Gestione delle verifiche  
 Alla prima importazione degli elementi, vengono attivati esclusivamente i criteri contrassegnati nella finestra delle 
@@ -841,7 +847,7 @@ il comando **Salva figura** nella barra degli strumenti della **finestra dei dia
 cartella di destinazione.  
 
 I diagrammi di velocità e visibilità possono essere salvati nel file `.xml` da cui sono stati importati i dati geometrici, 
-tramite il comando **Salva xml**. L’operazione salva i diagrammi della vista corrente come nuovi profili associati al 
+tramite il comando **Salva XML**. L’operazione salva i diagrammi della vista corrente come nuovi profili associati al 
 tracciato importato, sovrascrivendo eventuali profili esistenti con lo stesso nome.
 Per il diagramma di velocità, oltre al profilo, vengono esportate nel file `.xml` anche le caratteristiche delle 
 **Velocità di progetto**, consultabili dopo la reimportazione in Civil 3D nella sezione **Criteri di progettazione** 
@@ -849,15 +855,16 @@ nelle proprietà del tracciato, ed eventualmente rappresentabili come finche nel
 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/design_speeds.jpg">  
 
-Il comando **Esporta CSV** è utile per importare i diagrammi in Civil 3D senza la necessità di salvarli in LandXML. In particolare:
+Il comando **Esporta CSV** è utile per importare i diagrammi in Civil 3D senza la necessità di salvarli in LandXML. In particolare:  
+
   - Diagrammi di velocità e visibilità: esporta i profili in un file delimitato da spazio da importare in Civil 3D tramite 
-  il comando *Crea profilo da file*  
+  il comando *Crea profilo da file*/**Create profile from file**  
 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile_from_file.jpg">  
 
   - Andamento dei cigli: esporta il file delimitato da punto e virgola (sistema italiano) o da virgola (sistema inglese) 
-  da importare in Civil 3D tramite il comando **Importa dati di sopraelevazione** dall'editor tabellare di sopraelevazioni 
-  relativo al tracciato in esame  
+  da importare in Civil 3D tramite il comando **Importa dati di sopraelevazione**/**Import superelevation data from file** 
+  dall'editor tabellare di sopraelevazioni relativo al tracciato in esame  
 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/superelevation_tabular_editor.jpg">  
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/superelevation_from_file.jpg">  
@@ -890,6 +897,14 @@ Importazione di un profilo:
 La mancanza di uno qualsiasi dei parametri richiesti interrompe l’importazione e genera un messaggio di errore che 
 specifica il primo parametro mancante. Alla conferma di lettura del messaggio, viene conservato nella barra di stato.  
 
+I parametri degli elementi planimetrici importati vengono controllati e le eventuali incompatibilità geometriche 
+segnalate con un avviso, riportando le prime 10 con numero elemento e valore anomalo, nei seguenti casi:
+
+  - Lunghezza elemento negativa  
+  - Raggio curva negativo  
+  - Parametro A negativo  
+  - Progressiva finale precedente a quella iniziale  
+
 Nel caso di importazione da file `.xml`, vengono cercati i seguenti parametri:  
 
 Importazione di un tracciato:  
@@ -912,11 +927,13 @@ Importazione di un profilo:
   applicati agli ultimi 3 elementi *curva-clotoide-rettifilo*, incluso il rettifilo finale, che ha cambiato posizione 
   a seguito dell'inserimento della clotoide di continuità e della curva policentrica. Eventuali modifiche ai criteri 
   del rettifilo finale verranno sovrascritte.  
-  - Non viene verificata la fattibilità geometrica né la correttezza della sequenza degli elementi del tracciato/profilo, 
-  in quanto i dati provengono da software di modellazione stradale.  
+
+- Non viene verificata la fattibilità geometrica né la correttezza della sequenza degli elementi del tracciato/profilo, 
+in quanto i dati provengono da software di modellazione stradale.  
+
 - Si assume la conformità normativa dei tipi di elementi che compongono il tracciato plano-altimetrico. Pertanto:  
-  - Il tipo di elemento di transizione planimetrica non viene verificato: si assume che sia una clotoide.  
-  - Il tipo di raccordo altimetrico non viene verificato: si assume che sia una parabola simmetrica (non circolare).  
+    - Si assume che l'elemento di transizione planimetrica sia una clotoide.  
+    - Si assume che l'elemento di raccordo altimetrico sia una parabola simmetrica (non circolare).  
 
 ### 10.2 Flusso di verifica  
 Di seguito le operazioni eseguite **automaticamente** in sequenza:  
@@ -941,7 +958,33 @@ Le operazioni sopra elencate vengono eseguite a ogni attivazione di una delle se
 
 I risultati numerici e grafici vengono aggiornati **immediatamente** in **tutte le finestre**.  
 
-### 10.3 Approssimazioni  
+### 10.3 Esportazione dei dati  
+
+Il file CSV delle sopraelevazioni, da importare in Civil 3D, è strutturato nelle seguenti colonne:  
+  - *Superelevation Region*  
+  - *Station*  
+  - *Description*  
+  - *Smoothing Curve Length*  
+  - *Left Outside Shoulder*  
+  - *Left Outside Lane*  
+  - *Left Inside Lane*  
+  - *Left Inside Shoulder*  
+  - *Right Outside Shoulder*  
+  - *Right Outside Lane*  
+  - *Right Inside Lane*  
+  - *Right Inside Shoulder*  
+
+La colonna *Description* utilizza la seguente codifica:  
+  - *Begin Alignment*  
+  - *End Alignment*  
+  - *Begin Normal Crown*  
+  - *End Normal Crown*  
+  - *Begin Full Super*  
+  - *End Full Super*  
+  - *Level Crown*  
+  - *Reverse Crown*  
+
+### 10.4 Approssimazioni  
 Durante l’importazione dei dati numerici non viene effettuata alcuna approssimazione sui valori di input.  
 Nei calcoli relativi ai parametri geometrici e cinematici, i valori numerici vengono mantenuti con piena precisione. 
 Le approssimazioni vengono applicate esclusivamente ai **valori limite normativi** calcolati, secondo le seguenti convenzioni:  
