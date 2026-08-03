@@ -1,38 +1,40 @@
-**Educational Use License**  
-Copyright © Eslam Anter, 2025
-
-This software is distributed as a compiled executable (.exe) and is intended solely for educational and non-commercial use.
-
-**Permitted Use**  
-You may:  
-- Use this software for teaching, learning, or academic research  
-- Share it with students, instructors, or institutions for educational purposes
-
-**Restrictions**  
-You may not:  
-- Modify or decompile the executable  
-- Redistribute the software for commercial purposes  
-- Use the software in production systems or for-profit environments
-
-This software is provided "as is" without any warranty, express or implied.
+# STRADIFICA  
+**Verifica Tracciati Stradali**  
+*v2.2 beta*  
 
 ---
+## Licenza  
+Questa versione del software è distribuita come eseguibile `.exe`:  
 
-**Third-Party Components**
+  - Consentito l'uso libero per scopi didattici ed educativi.  
+  - Consentito l'uso commerciale, con attribuzione, previa comunicazione all'autore.  
+  - Vietata qualsiasi modifica o decompilazione.  
+  - Vietata la riproduzione delle funzionalità senza contributo originale, a scopo di lucro, o senza attribuzione all'autore.  
 
-**PySide6 (GNU LGPL v3)**  
-This application includes components from PySide6.  
-- Library and source code: https://www.qt.io/qt-for-python  
-- Full license text: https://www.gnu.org/licenses/lgpl-3.0.html
+Per comunicare l'uso commerciale, inviare una descrizione del contesto di applicazione a: 
+  **[eslam.anter@outlook.com](mailto:eslam.anter@outlook.com)**  
 
-**Matplotlib (BSD-Compatible License)**  
-This application uses Matplotlib.  
-- © 2012–present Matplotlib Development Team. All rights reserved.  
-- License details: https://matplotlib.org/stable/project/license.html
+---
+## Componenti di terze parti  
+**PySide6 (Licenza GNU LGPL v3)**  
+
+Questa applicazione include componenti provenienti da PySide6, sviluppato e mantenuto da Qt Group.  
+- Libreria e source code: https://www.qt.io/qt-for-python  
+- Testo completo della licenza: https://www.gnu.org/licenses/lgpl-3.0.html  
+
+**Matplotlib (Licenza compatibile BSD)**  
+
+Questa applicazione utilizza la libreria Matplotlib.  
+- © 2012 Matplotlib Development Team. Tutti i diritti riservati  
+- Dettagli sulla licenza: https://matplotlib.org/stable/project/license.html  
 
 **Google Fonts (SIL Open Font License)**  
-This application uses Material Symbols icons from Google Fonts under the SIL Open Font License.  
+
+Questa applicazione utilizza le icone Material Symbols da Google Fonts, distribuite sotto la SIL Open Font License.  
+- Testo completo della licenza: https://scripts.sil.org/OFL  
 
 ---
+**Stradifica v2.2**  
+**© 2025 Eslam Anter**  
 
-For inquiries or permissions beyond this license, contact: eslam.anter@outlook.com
+*Registrato al Registro Pubblico Speciale per i Programmi per Elaboratore della SIAE con il N. D000028853.*  
