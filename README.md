@@ -1,6 +1,8 @@
 # STRADIFICA  
 **Verifica Tracciati Stradali**  
-*v2.2 beta*  
+*v2.2 beta* | 
+[Note di rilascio](https://github.com/eslamanter/stradifica-release/blob/main/notes.md) | 
+[Licenza](https://github.com/eslamanter/stradifica-release/blob/main/LICENSE.md)  
 
 ---
 ## 1. Cos'è  
@@ -9,7 +11,7 @@ verifiche plano-altimetriche dei tracciati stradali, in conformità alla normati
 
 In sviluppo continuo dal 2022, il progetto nasce con passione come freeware per aiutare la comunità degli ingegneri ad 
 automatizzare i flussi di lavoro, fondato sull'esperienza progettuale e sull'utilizzo di software commerciali del settore 
-quali *Autodesk Civil 3D (Country Kit Italiano)*, *Sierrasoft Roads* e *Digicorp Ingegneria Civil Design*. 
+quali *Autodesk Civil 3D (Country Kit Italiano)*, *Sierrasoft Roads* e *Digicorp Ingegneria Civil Design*.  
 Feedback e suggerimenti sono sempre benvenuti.  
 
 ---
@@ -234,9 +236,9 @@ possibile accedere a tutti gli strumenti e comandi.
 La finestra principale è composta da una vista centrale, attorno alla quale sono disposte delle barre contenenti i 
 comandi per eseguire le diverse funzioni.  
 La vista centrale è suddivisa verticalmente in due sezioni (con estensioni modificabili):  
-- **Sezione elementi** (in alto): contiene la **tabella degli elementi**  
-- **Sezione verifiche** (in basso): contiene la **tabella delle verifiche** (*a sinistra*) e il **registro delle 
-verifiche** (*a destra*)  
+  - **Sezione elementi** (in alto): contiene la **tabella degli elementi**  
+  - **Sezione verifiche** (in basso): contiene la **tabella delle verifiche** (*a sinistra*) e il 
+**registro delle verifiche** (*a destra*)  
 
 **Tabella degli elementi**  
 
@@ -244,30 +246,30 @@ La tabella degli elementi contiene le informazioni geometriche del tracciato o d
 selezionata dalla barra delle viste.
 
 Per la vista del **tracciato**, vengono visualizzati i seguenti parametri:  
-- **N.**: Numero  
-- **Elemento**: Tipo di elemento geometrico  
-- **Prog. iniziale**: Progressiva iniziale [m]  
-- **Prog. finale**: Progressiva finale [m]  
-- **Lunghezza**: Lunghezza [m]  
-- **A**: Parametro A della clotoide [m]  
-- **Raggio**: Raggio di curvatura [m]  
-- **Direzione**: Direzione di curvatura (oraria/antioraria)  
-- **V. 1° fase**: Velocità massima in curva desunta dal diagramma delle velocità della prima fase [km/h]  
-- **V. max**: Velocità massima desunta dal diagramma delle velocità della fase finale [km/h]  
-- **Flesso**: Rettifilo di flesso verificato (true/false) (D.M. 05/11/2001 §5.2.5)  
-- **Sopraelevazione**: Sopraelevazione massima in curva [%] (D.M. 05/11/2001 §5.2.4)  
-- **Allargamento**: Allargamento totale della piattaforma per l’iscrizione dei veicoli in curva [m]  
+  - **N.**: Numero  
+  - **Elemento**: Tipo di elemento geometrico  
+  - **Prog. iniziale**: Progressiva iniziale [m]  
+  - **Prog. finale**: Progressiva finale [m]  
+  - **Lunghezza**: Lunghezza [m]  
+  - **A**: Parametro A della clotoide [m]  
+  - **Raggio**: Raggio di curvatura [m]  
+  - **Direzione**: Direzione di curvatura (oraria/antioraria)  
+  - **V. 1° fase**: Velocità massima in curva desunta dal diagramma delle velocità della prima fase [km/h]  
+  - **V. max**: Velocità massima desunta dal diagramma delle velocità della fase finale [km/h]  
+  - **Flesso**: Rettifilo di flesso verificato (true/false) (D.M. 05/11/2001 §5.2.5)  
+  - **Sopraelevazione**: Sopraelevazione massima in curva [%] (D.M. 05/11/2001 §5.2.4)  
+  - **Allargamento**: Allargamento totale della piattaforma per l’iscrizione dei veicoli in curva [m]  
 
 Per la vista del **profilo**, vengono visualizzati i seguenti parametri:  
-- **N.**: Numero  
-- **Elemento**: Tipo di elemento geometrico  
-- **Prog. iniziale**: Progressiva iniziale [m]  
-- **Prog. finale**: Progressiva finale [m]  
-- **Lunghezza**: Lunghezza [m]  
-- **Pendenza**: Pendenza longitudinale [%]  
-- **Raggio**: Raggio di curvatura [m]  
-- **Profilo**: Andamento altimetrico  
-- **V. max**: Velocità massima desunta dal diagramma delle velocità della fase finale [km/h]  
+  - **N.**: Numero  
+  - **Elemento**: Tipo di elemento geometrico  
+  - **Prog. iniziale**: Progressiva iniziale [m]  
+  - **Prog. finale**: Progressiva finale [m]  
+  - **Lunghezza**: Lunghezza [m]  
+  - **Pendenza**: Pendenza longitudinale [%]  
+  - **Raggio**: Raggio di curvatura [m]  
+  - **Profilo**: Andamento altimetrico  
+  - **V. max**: Velocità massima desunta dal diagramma delle velocità della fase finale [km/h]  
 
 Passando con il cursore sul numero di riga (intestazione verticale), viene visualizzato un tooltip con i criteri non verificati.  
 È possibile navigare nella tabella tramite i tasti freccia su/giù, Pag↑/Pag↓, Home e Fine.  
@@ -341,7 +343,7 @@ viene visualizzato un tooltip con il percorso, la data e l'ora dell'ultima modif
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/language.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/sun.jpg" width="24" height="24"> | <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/language.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/moon.jpg" width="24" height="24">  
 
   - Comando **Lingua**: seleziona la lingua dell'applicazione  
-  - Comando **Tema**: attiva/disattiva il tema scuro  
+  - Comando **Tema**: cambia il tema dei colori tra tema chiaro e tema scuro  
 
 **Barra dei filtri** (*a destra*)  
 
@@ -453,11 +455,16 @@ I criteri sono suddivisi in sottocategorie, ciascuna in una scheda dedicata:
   - Livelletta  
   - Parabola  
 
+Con il tasto destro nella scheda *Verifiche* si apre il menu contestuale con i comandi:  
+
+  - Comando **Attiva tutti**: attiva tutti i criteri di verifica per il tipo di elemento nella scheda selezionata  
+  - Comando **Disattiva tutti**: disattiva tutti i criteri di verifica per il tipo di elemento nella scheda selezionata  
+
 Le modifiche ai criteri attivati nelle impostazioni per il tipo di elemento hanno effetto solo sui nuovi elementi della 
 successiva importazione. Tuttavia, nella parte inferiore della scheda *Verifiche* è presente la casella **Applica in 
 tempo reale**: se selezionata, le successive modifiche sovrascriveranno i criteri dei singoli elementi già importati.  
 
-In fondo alla finestra *Impostazioni* è presente la casella **Auto salvataggio**, attiva di default, che consente di 
+In fondo alla finestra *Impostazioni* è presente la casella **Autosalvataggio**, attiva di default, che consente di 
 salvare automaticamente le impostazioni delle schede *Piattaforma* e *Verifiche* alla chiusura dell'applicazione.  
 
 ### 8.3 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/speed.jpg" width="24" height="24"> Finestra dei limiti cinematici locali  
@@ -580,18 +587,20 @@ Con la rotella del mouse è possibile eseguire lo zoom in/out lungo l'asse delle
 ### 8.5 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export.jpg" width="24" height="24"> Finestra dell'esportazione dei rapporti  
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/export_window.jpg" width="100%">  
 
-La finestra dell'esportazione consente di visualizzare in tempo reale i riepiloghi delle verifiche normative relative 
-agli elementi importati. La parte centrale della finestra mostra il rapporto selezionato, con un riepilogo dei dati 
-generali della strada e degli eventuali limiti locali inseriti.  
+**La finestra dell'esportazione** consente di visualizzare in tempo reale i riepiloghi delle verifiche normative relative 
+agli elementi importati. La parte centrale della finestra mostra il rapporto selezionato, con un riepilogo **modificabile** 
+dei dati generali della strada e degli eventuali limiti locali inseriti.  
 
 **Dati generali e verifiche**  
 
 I dati generali della strada includono gli stessi specificati nella **finestra delle impostazioni** oltre a:  
+
 - **Nome del tracciato**: nel caso sia importato da **LandXML**  
 - **Riferimento normativo**: D.M. 05/11/2001 e/o D.M. 19/04/2006  
-- **Progressiva iniziale** [m]: per la progressiva iniziale del tracciato (o del profilo se manca il tracciato planimetrico  
-- **Progressiva finale** [m]: per la progressiva finale del tracciato (o del profilo se manca il tracciato planimetrico)  
-- **Lunghezza** [m]: per la lunghezza totale del tracciato (o del profilo se manca il tracciato planimetrico)  
+- **Progressiva iniziale** [m]: progressiva iniziale del tracciato (o del profilo se manca il tracciato planimetrico  
+- **Progressiva finale** [m]: progressiva finale del tracciato (o del profilo se manca il tracciato planimetrico)  
+- **Lunghezza** [m]: lunghezza totale del tracciato (o del profilo se manca il tracciato planimetrico)  
+- **Tempo di viaggio** [HH:MM:SS]: tempo totale di viaggio calcolato dal diagramma di velocità fase finale  
 
 I limiti locali vengono visualizzati (se esistono) con i parametri precedentemente menzionati per la 
 **finestra dei limiti locali**  
@@ -610,22 +619,16 @@ verifica dell'elemento se sono soddisfatti tutti i criteri sottoelencati contemp
 Da notare che i criteri disattivati (con doppio clic) nella **tabella delle verifiche** della **finestra principale** 
 non vengono elencati nell'esportazione dei rapporti delle verifiche.  
 
-Oltre alla vista centrale, sono disponibili tre barre:  
+Oltre alla vista centrale, sono disponibili le seguenti barre:  
 
 **Barra di esportazione** (*in alto*)  
 
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24">  
+<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/log.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/save_as.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/refresh.jpg" width="24" height="24">  
 
   - Comando **Esporta registro**: esporta il registro completo con le procedure di verifica di tutti i criteri per gli 
   elementi planimetrici e altimetrici in formato `.txt`  
   - Comando **Salva anteprima** (Ctrl+S): salva l'anteprima corrente in formato `.pdf` / `.html`/ `.xlsx` / `.dxf`  
-
-**Barra delle modifiche** (*in alto*)  
-
-<img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/refresh.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/edit_off.jpg" width="24" height="24"> | <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/refresh.jpg" width="24" height="24"> <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/edit.jpg" width="24" height="24">  
-
   - Comando **Aggiorna**: aggiorna i tabulati riassuntivi delle verifiche, qualora siano state modificate manualmente  
-  - Comando **Modifica**: abilita/disabilita la modifica manuale dei tabulati riassuntivi delle verifiche  
 
 **Barra delle viste** (*in basso*)  
 
@@ -641,8 +644,9 @@ registro delle verifiche e il salvataggio dei rapporti.
 ### 8.6 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom.jpg" width="24" height="24"> Finestra dei controlli normativi personalizzati  
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/custom_window.jpg" width="100%">  
 
-La finestra dei controlli normativi personalizzati di normativa consente il calcolo dei limiti normativi dei vari criteri 
-utilizzando parametri di input fittizi, non legati al tracciato reale.  
+**La finestra dei controlli normativi personalizzati** consente il calcolo dei limiti normativi dei vari criteri utilizzando 
+parametri di input personalizzati, indipendenti dal tracciato importato, con collegamento dinamico alle impostazioni di 
+piattaforma nella **finestra delle impostazioni**.  
 
 La finestra è suddivisa orizzontalmente in due sezioni:  
 
@@ -650,34 +654,36 @@ La finestra è suddivisa orizzontalmente in due sezioni:
   Contiene i tipi di elementi geometrici tra cui selezionare uno, e gli input necessari da definire per l'elemento scelto:  
 
   - **Tracciato**  
-    *Rettifilo*  
-      - **V.max**: velocità massima del rettifilo [km/h]  
-      - **A1**: parametro di scala della clotoide precedente [m] (per il caso di flesso)  
-      - **A2**: parametro di scala della clotoide successiva [m] (per il caso di flesso)  
 
-    *Clotoide*  
-      - **V.max**: velocità massima della clotoide [km/h]  
-      - **A1**: parametro di scala della clotoide precedente [m]  
-      - **A2**: parametro di scala della clotoide successiva [m]  
-      - **Ri**: raggio di curvatura nel punto iniziale [m] (nullo per rettifilo)  
-      - **Rf**: raggio di curvatura nel punto finale [m] (nullo per rettifilo)  
-      - **qi**: pendenza trasversale iniziale del ciglio esterno [m/m]  
-      - **qf**: pendenza trasversale finale del ciglio esterno [m/m]  
+    *Rettifilo:*  
+        - **V.max**: velocità massima del rettifilo [km/h]  
+        - **A1**: parametro di scala della clotoide precedente [m] (per il caso di flesso)  
+        - **A2**: parametro di scala della clotoide successiva [m] (per il caso di flesso)  
 
-    *Arco*  
-      - **V.max**: velocità massima della curva circolare [km/h]  
-      - **L1**: lunghezza del rettifilo precedente [m]  
-      - **L2**: lunghezza del rettifilo successivo [m]  
+    *Clotoide:*  
+        - **V.max**: velocità massima della clotoide [km/h]  
+        - **A1**: parametro di scala della clotoide precedente [m]  
+        - **A2**: parametro di scala della clotoide successiva [m]  
+        - **Ri**: raggio di curvatura nel punto iniziale [m] (nullo per rettifilo)  
+        - **Rf**: raggio di curvatura nel punto finale [m] (nullo per rettifilo)  
+        - **qi**: pendenza trasversale iniziale del ciglio esterno [m/m]  
+        - **qf**: pendenza trasversale finale del ciglio esterno [m/m]  
+
+    *Arco:*  
+        - **V.max**: velocità massima della curva circolare [km/h]  
+        - **L1**: lunghezza del rettifilo precedente [m]  
+        - **L2**: lunghezza del rettifilo successivo [m]
 
   - **Profilo**  
-    *Livelletta*  
-      - **V.max**: velocità massima della livelletta [km/h]  
 
-    *Parabola*  
-      - **V.max**: velocità massima del raccordo verticale [km/h]  
-      - **L**: lunghezza del raccordo [m]  
-      - **i**: pendenza longitudinale media del raccordo [m/m]  
-      - **Δi**: differenza di pendenza longitudinale (i₂ - i₁) [m/m]  
+    *Livelletta:*  
+        - **V.max**: velocità massima della livelletta [km/h]  
+
+    *Parabola:*  
+        - **V.max**: velocità massima del raccordo verticale [km/h]  
+        - **L**: lunghezza del raccordo [m]  
+        - **i**: pendenza longitudinale media del raccordo [m/m]  
+        - **Δi**: differenza di pendenza longitudinale (i₂ - i₁) [m/m]  
 
 - **Sezione Output** (*a destra*)  
   Mostra il riepilogo della procedura di calcolo dei limiti normativi per il tipo di elemento selezionato, insieme ai 
@@ -754,6 +760,9 @@ momento l'esportazione dei profili dei diagrammi di velocità/visibilità nel fi
 file `.xml` è comunque consultabile passando con il cursore sul comando **Salva XML** nella barra di esportazione della 
 **finestra dei diagrammi**.  
 
+I file di progetto si possono aprire direttamente impostando l'eseguibile di *Stradifica* come app predefinita 
+per l'estensione `.strad`.  
+
 ### 9.3 Gestione delle verifiche  
 Alla prima importazione degli elementi, vengono attivati esclusivamente i criteri contrassegnati nella finestra delle 
 impostazioni per ciascun tipo di elemento. Eventuali modifiche ai criteri attivati per i singoli elementi vengono 
@@ -789,8 +798,9 @@ velocità.
 
 I valori dei parametri **Lunghezza**, **A** e **Raggio** vengono evidenziati in **rosso** e affiancati tra parentesi dai 
 relativi valori limite quando risultano coinvolti in almeno un criterio non verificato. Passando con il cursore sul 
-parametro non verificato viene visualizzato un tooltip con lo scarto da recuperare per raggiungere il valore limite.
-Il valore della **sopraelevazione** viene colorato in rosso quando supera **-2.50%** in assenza di transizione precedente 
+parametro non verificato viene visualizzato un tooltip con lo scarto da recuperare per raggiungere il valore limite; 
+lo stesso vale per i singoli criteri, passando con il cursore sul valore dell'elemento selezionato. Il valore della 
+**sopraelevazione** viene colorato in arancione quando supera **-2.50%** in assenza di transizione precedente 
 e/o successiva.  
 
 Per le velocità di 1° fase (**V. 1°fase** delle curve planimetriche) e di fase finale (**V. max** di ogni elemento), i 
@@ -857,12 +867,12 @@ nelle proprietà del tracciato, ed eventualmente rappresentabili come finche nel
 
 Il comando **Esporta CSV** è utile per importare i diagrammi in Civil 3D senza la necessità di salvarli in LandXML. In particolare:  
 
-  - Diagrammi di velocità e visibilità: esporta i profili in un file delimitato da spazio da importare in Civil 3D tramite 
-  il comando *Crea profilo da file*/**Create profile from file**  
+  - **Diagrammi di velocità e visibilità**: esporta i profili in un file delimitato da spazio da importare in Civil 3D 
+  tramite il comando **Crea profilo da file**/**Create profile from file**  
 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/profile_from_file.jpg">  
 
-  - Andamento dei cigli: esporta il file delimitato da punto e virgola (sistema italiano) o da virgola (sistema inglese) 
+  - **Andamento dei cigli**: esporta il file delimitato da punto e virgola (sistema italiano) o da virgola (sistema inglese) 
   da importare in Civil 3D tramite il comando **Importa dati di sopraelevazione**/**Import superelevation data from file** 
   dall'editor tabellare di sopraelevazioni relativo al tracciato in esame  
 
@@ -939,22 +949,22 @@ in quanto i dati provengono da software di modellazione stradale.
 Di seguito le operazioni eseguite **automaticamente** in sequenza:  
 - Aggiornamento dei parametri geometrici degli elementi planimetrici/altimetrici  
 - Calcolo del diagramma delle velocità:  
-  - prima fase  
-  - fase finale  
+      - prima fase  
+      - fase finale  
 - Applicazione dei limiti cinematici locali personalizzati  
 - Calcolo dell'andamento dei cigli, con eventuali correzioni della pendenza longitudinale ∆i  
 - Verifiche degli elementi:  
-  - planimetrici  
-  - altimetrici  
+      - planimetrici  
+      - altimetrici  
 - Calcolo delle distanze minime di visibilità per:  
-  - **l'arresto**: ogni 20 m, con passo di integrazione dv = 1 km/h (profilo orizzontale assunto in assenza di dati altimetrici)  
-  - **il sorpasso**: per i tracciati a carreggiata singola con doppio senso di marcia  
-  - **la manovra di cambio di corsia**: per i tracciati a carreggiata monosenso o a carreggiate separate  
+      - **l'arresto**: ogni 20 m, con passo di integrazione dv = 1 km/h (profilo orizzontale assunto in assenza di dati altimetrici)  
+      - **il sorpasso**: per i tracciati a carreggiata singola con doppio senso di marcia  
+      - **la manovra di cambio di corsia**: per i tracciati a carreggiata monosenso o a carreggiate separate  
 
 Le operazioni sopra elencate vengono eseguite a ogni attivazione di una delle seguenti azioni:  
-- **Importazione** (avvenuta con successo) di elementi planimetrici/altimetrici tramite uno dei modi di importazione  
-- Modifica di una delle caratteristiche della piattaforma nella finestra delle **impostazioni**  
-- Aggiunta, modifica o eliminazione di una tratta nella finestra dei **limiti cinematici locali**  
+    - **Importazione** (avvenuta con successo) di elementi planimetrici/altimetrici tramite uno dei modi di importazione  
+    - Modifica di una delle caratteristiche della piattaforma nella finestra delle **impostazioni**  
+    - Aggiunta, modifica o eliminazione di una tratta nella finestra dei **limiti cinematici locali**  
 
 I risultati numerici e grafici vengono aggiornati **immediatamente** in **tutte le finestre**.  
 
@@ -996,6 +1006,11 @@ Le approssimazioni vengono applicate esclusivamente ai **valori limite normativi
 Tutti i diagrammi calcolati e importati vengono automaticamente semplificati eliminando i punti intermedi **collineari**, 
 mantenendo solo i punti di cambio di direzione.  
 
+### 10.5 Gestione dei crash  
+Il software intercetta eventuali errori anomali non previsti durante l'importazione dei dati o l'esecuzione dei calcoli, 
+e riporta la descrizione dettagliata in un file di log `.txt` nella stessa cartella dell'applicazione, da inviare all'autore 
+per la segnalazione.  
+
 ---
 ## 11. Componenti di terze parti  
 **PySide6 (Licenza GNU LGPL v3)**  
@@ -1019,6 +1034,17 @@ Questa applicazione utilizza le icone Material Symbols da Google Fonts, distribu
 ## 12. Collaboratori  
 Un ringraziamento speciale ad [Abdulrahman Khalid](https://github.com/Abdulrahman-Khalid) per il prezioso contributo a 
 questo progetto.  
+
+---
+## Supporto  
+
+Se trovi utile Stradifica, puoi offrirmi un caffè ☕  
+
+<p align="left">
+  <a href="https://www.buymeacoffee.com/eslamanter">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Offrimi%20un%20caff%C3%A8&emoji=%E2%98%95&slug=eslamanter&button_colour=1a6fb5&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=000000" width="220" />
+  </a>
+</p>  
 
 ---
 **Stradifica v2.2**  
