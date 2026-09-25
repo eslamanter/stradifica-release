@@ -1,6 +1,6 @@
 # STRADIFICA  
 **Verifica Tracciati Stradali**  
-*v2.2 beta* | 
+*v2.2* | 
 [Note di rilascio](https://github.com/eslamanter/stradifica-release/blob/main/notes.md) | 
 [Licenza](https://github.com/eslamanter/stradifica-release/blob/main/LICENSE.md)  
 
@@ -484,7 +484,8 @@ Tali condizioni influenzano il calcolo di:
 
 Nella parte superiore della finestra sono presenti i tasti 
 <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/add.jpg" width="16" height="16"> e <img src="https://raw.githubusercontent.com/eslamanter/stradifica-release/main/images/remove.jpg" width="16" height="16"> 
-per aggiungere una nuova tratta o eliminare quella selezionata.  
+per aggiungere una nuova tratta o eliminare quella selezionata. 
+Le stesse azioni sono accessibili tramite i tasti **+** e **-** della tastiera.  
 
 Per ciascuna tratta sono modificabili i seguenti parametri:  
 - **Prog. iniziale**: progressiva iniziale della tratta [m] (default: 0+000.000)  
